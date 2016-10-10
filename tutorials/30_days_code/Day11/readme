@@ -1,0 +1,16 @@
+Given 6 x 6 Array A:
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+We define an hourglass in A to be a subset of values with indices falling in this pattern in A's graphical representation:
+
+a b c
+  d
+e f g
+
+Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.
+
